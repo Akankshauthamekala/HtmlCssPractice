@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .slide{
+            
+            height: 100px;
+            width:100px;
+           
+        
+        }
+        
+            
+            
+            
+          
+        .slide {
+          
+           /* animation-duration: 7s;
+            animation-iteration-count: infinite;
+            animation-name:sliding;*/
+            animation:sliding 10s infinite;
+            
+        }
+    
+           /* from{
+                background-color: aqua;
+                border:2px solid darkblue;
+                transform: translatex(0px);
+            }
+            to{
+                background-color:red;
+                border:2px dotted deepskyblue;
+                transform: translatex(90px);
+            }*/
+            @keyframes sliding{
+            0%{
+                background-color: aqua;
+                border:2px solid darkblue;
+                transform: translate(0px,0px);
+               
+            }
+            25%{
+                background-image: url(sai.jpeg);
+                background-color:deeppink;
+                border:5px dotted deepskyblue;
+                transform: translate(120px,0px);
+               
+               
+            }
+            50%{
+                background-color: blueviolet;
+                border:6px solid black;
+                transform: translate(120px,120px);
+              
+               
+               
+            }
+            75%{
+                background-color:red;
+                border:5px double deepskyblue;
+                transform: translate(0px,120px);
+              
+               
+            }
+            100%{
+                background-color:greenyellow;
+                border:6px groove rgb(156, 14, 212);
+                transform: translate(0px,0px);
+              
+               
+            }
+            
+        }
+        </style>
+</head>
+<body>
+    <p class="slide"></p>
+    <p class="tr"></p>
+</body>
+</html>

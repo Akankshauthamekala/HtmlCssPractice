@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color:antiquewhite;
+            padding:opx;margin: opx;
+        }
+        .navbar{
+            background-color: aqua;
+            border:2px solid;
+            border-radius: 15px;
+            margin-top: 10px;
+            display: flex;
+            justify-content: space-around;
+            overflow: hidden;
+            text-decoration: none;
+
+        }
+        .navbar a{
+            background-color:yellowgreen;
+            text-decoration: none;
+            padding:10px;
+            border: 2px solid palevioletred;
+            color:black;
+            border-radius: 10px;
+        }
+        .navbar a:hover{
+            background-color: blue;
+            text-decoration: dashed;
+            color:whitesmoke;
+            border:2px dotted white;
+        }
+        @media (max-width:400px)
+        {
+            .navbar{
+                flex-direction: column;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="xyz">Home</a>
+        <a href="xyz">Service</a>
+        <a href="xyz">About</a>
+        <a href="xyz">contact</a>
+    </div>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p::first-letter{
+            color:aqua;
+            background-color: yellowgreen;
+
+
+        }
+        p::first-line{
+            background-color: deeppink;
+        }
+        h1::after{
+            content:'this is h1 tag';
+            color:red;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-weight: bold;
+            
+        }
+        h1::before{
+            content:'main';
+        }
+        ::selection{
+            background-color: deepskyblue;
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: bold;
+            font-style: italic;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>Heading</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi, autem ipsum facilis iste ducimus quos architecto quod exercitationem maiores doloribus libero esse, laboriosam soluta quis aspernatur ab blanditiis nobis. Numquam.Lorem ipsum dolor sit amet consectetur adipisicing elit. In at rerum magnam quod sint. Doloremque tempora labore tempore molestias quis, consequuntur dignissimos iure facilis autem inventore ipsum, non, at et.loremlorem</p>
+    
+</body>
+</html>

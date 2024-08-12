@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+       
+       background-color: #050505;
+    }
+    
+    h1{
+    
+       color: aliceblue;
+      
+       background-image: url(fire.jpg);
+        background-clip: text;
+        color:transparent;
+        
+        text-align: left;
+        
+       
+      
+      
+    }
+    img{
+        
+        height: 150px;
+        width:200px;
+    }
+    img:hover{
+        border-radius: 50%;
+        filter:drop-shadow(2px 2px 20px deeppink);
+        height: 150px;
+        width:200px;
+      
+    }
+    h1:hover{
+        
+        background-image: url(fire.jpg);
+        background-clip: text;
+        color:transparent;
+        font-size:25px;
+        font-weight: bold;
+        text-align: end;
+     
+       
+      
+
+        
+        
+      
+       
+        
+        
+       
+    }
+   
+        
+
+      .slide {
+          
+      
+           animation:sliding 10s infinite;
+      }
+           
+       
+   
+          
+           @keyframes sliding{
+           0%{
+               background-color: aqua;
+               border:2px solid darkblue;
+               transform: translate(0px,0px);
+               border-radius: 50%;
+               filter:drop-shadow(2px 2px 20px deeppink);
+              
+           }
+           25%{
+               background-image: url(sai.jpeg);
+               background-color:deeppink;
+               border:5px dotted deepskyblue;
+               transform: translate(120px,0px);
+               border-radius: 50%;
+               filter:drop-shadow(2px 2px 20px deeppink);
+              
+              
+           }
+           50%{
+               background-color: blueviolet;
+               border:6px solid black;
+               transform: translate(120px,120px);
+               border-radius: 50%;
+               filter:drop-shadow(2px 2px 20px deeppink);
+             
+              
+              
+           }
+           75%{
+               background-color:red;
+               border:5px double deepskyblue;
+               transform: translate(0px,120px);
+               border-radius: 50%;
+               filter:drop-shadow(2px 2px 20px deeppink);
+             
+              
+           }
+           100%{
+               background-color:greenyellow;
+               border:6px groove rgb(156, 14, 212);
+               transform: translate(0px,0px);
+               border-radius: 50%;
+               filter:drop-shadow(2px 2px 20px deeppink);
+             
+              
+           }
+           
+       }
+
+       
+    
+
+ 
+</style>
+<body>
+    <mark><h1  class="p3">U.AKANKSHA</h1></mark>
+    <marquee><img src="AKU.jpg" class="slide"></marquee>
+   
+    
+    
+    
+</body>
+</html>
